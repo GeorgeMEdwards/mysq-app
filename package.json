@@ -1,18 +1,25 @@
 {
-  "name": "login-mysql-app",
+  "name": "mysql-login-app",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeMEdwards/login-mysql-app.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeMEdwards/login-mysql-app/issues"
+  },
+  "homepage": "https://github.com/GeorgeMEdwards/login-mysql-app#readme",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }

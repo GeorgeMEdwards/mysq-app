@@ -18,7 +18,7 @@ app.set('view engine', 'pug');
 
 // session
 app.use(session({
-    secret:'youtube_video',
+    secret:'login_mysql_app',
     resave: false,
     saveUninitialized: false,
     cookie: {

@@ -1,5 +1,5 @@
 const express = require('express');
-const User = require('../core/user');
+const User = require('../model/user');
 const router = express.Router();
 
 // create an object from the class User in the file core/user.js
@@ -8,7 +8,7 @@ const user = new User();
 // Get the index page
 router.get('/', (req, res, next) => {
     let user = req.session.user;
-    //TBD- If there is a session named user that means the use is loged in. so we redirect him to home page by using /home route below
+    //TBD- If there is a session named user that means the use is loged in. 
     if(user) {
         res.redirect('/home');
         return;
